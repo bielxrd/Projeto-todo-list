@@ -47,6 +47,7 @@ public class FilterTaskAuth extends OncePerRequestFilter {
 
                 //Fazer a
                 if (passwordVerify.verified) {
+                    request.setAttribute("idUser", user.getId());
                     filterChain.doFilter(request, response);
                 } else {
                     response.sendError(401);
