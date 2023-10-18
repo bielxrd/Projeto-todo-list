@@ -2,6 +2,10 @@
 
 Este é um projeto de API To-Do List (lista de tarefas) construído com Spring Boot, Java, e Maven. A aplicação oferece um sistema de gerenciamento de tarefas e autenticação de usuário.
 
+# Testando a API
+
+Para testar a API da aplicação, recomendo o uso de ferramentas como [Postman](https://www.postman.com/) ou [APIDOG](https://apidog.com/).
+
 ## Tecnologias Utilizadas
 
 - **Spring Boot**: Framework para criar aplicativos Java de maneira rápida e fácil.
